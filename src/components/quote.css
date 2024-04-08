@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(130, 125, 119);
+  max-width: 100vw;
+
+}
+
+.quote-container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(147, 132, 132, 0.1);
+  margin-bottom: 20px;
+  /* background-color: rgba(195, 144, 82, 0); */
+
+}
+
+.quote-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* background-color: rgba(195, 144, 82, 0); */
+}
+
+.new-quote-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-quote-button:hover {
+  background-color: #225c9a;
+}
+
+.quote-history {
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .quote-history h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .quote-history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quote-history blockquote {
+    background-color: #cbc3c3;
+    /* border-left: 3px solid #007bff;  */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-history blockquote p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .quote-history blockquote cite {
+    font-style: normal;
+    font-size: 14px;
+    color: #555;
+  }
+  
